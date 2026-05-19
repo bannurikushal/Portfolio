@@ -6,3 +6,11 @@
 .header {
   height: 80px;
 }
+.list-container {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin-left: 22%;
+  padding: 30px;
+  font-weight: bold;
+}
