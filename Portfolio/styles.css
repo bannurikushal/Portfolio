@@ -6,18 +6,3 @@
 .header {
   height: 80px;
 }
-.list-container {
-  list-style: none;
-  display: flex;
-  gap: 30px;
-  font-weight: bold;
-  cursor: pointer;
-  padding: 30px;
-  margin-left: 22%;
-}
-li :hover {
-  font-size: 25px;
-}
-.welcome {
-  display: flex;
-}
