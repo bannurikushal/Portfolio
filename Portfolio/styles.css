@@ -14,3 +14,37 @@
   padding: 30px;
   font-weight: bold;
 }
+#Welcome {
+  display: flex;
+  background-color: #f8f7ff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.contact-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.hello-button {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  border-radius: 15px;
+  font-family: "Finlandica Text", sans-serif;
+  width: 150px;
+}
+a {
+  color: black;
+  height: 20px;
+}
+.personal-information {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
