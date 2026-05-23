@@ -19,7 +19,9 @@
   background-color: #f8f7ff;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
 }
 img {
   height: 200px;
@@ -41,10 +43,10 @@ img {
 }
 a {
   color: black;
-  height: 20px;
+  height: 15px;
 }
 .personal-information {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 15px;
 }
