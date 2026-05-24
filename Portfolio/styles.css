@@ -50,6 +50,11 @@ a {
   flex-direction: column;
   gap: 15px;
 }
-.Skills {
+.skills {
   background-color: #f8f7ff;
+}
+.skills-image {
+  background-color: white;
+  height: 150px;
+  width: 150px;
 }
