@@ -54,15 +54,53 @@ a {
 .skills {
   background-color: #f8f7ff;
 }
+.skills-header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
 .skills-card {
   background-color: white;
   height: 150px;
   width: 150px;
-  padding: 20px;
-  border-radius: 15px;
+  padding: 35px 20px;
+  border-radius: 25px;
+  box-shadow: 0 2px 10px #0000001a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: #f8f7ff;
 }
 .skill-text {
+  font-family: "Figtree", sans-serif;
+}
+.skills-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  width: 1200px;
+  padding-left: 250px;
+}
+.skill-image {
+  width: 50px;
+  height: 50px;
+}
+#education {
+  background-color: #f8f7ff;
+}
+.education-card {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
