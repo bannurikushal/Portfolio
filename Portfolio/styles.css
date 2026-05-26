@@ -94,6 +94,11 @@ a {
 #education {
   background-color: #f8f7ff;
 }
+.education-header {
+  display: flex;
+  justify-content: center;
+  padding: 30px 30px;
+}
 .education-card {
   width: 200px;
   height: 200px;
