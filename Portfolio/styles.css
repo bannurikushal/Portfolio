@@ -169,3 +169,31 @@ a {
 .contact-text {
   color: gray;
 }
+.name {
+  background-color: white;
+  border: 25px;
+  width: 300px;
+  padding: 15px;
+  border: 1px solid gray;
+  border-radius: 25px;
+  padding-left: 30px;
+}
+.email {
+  background-color: white;
+  border: 25px;
+  width: 300px;
+  padding: 15px;
+  border: 1px solid gray;
+  border-radius: 25px;
+  padding-left: 30px;
+}
+.massage {
+  background-color: white;
+  border: 25px;
+  width: 300px;
+  padding: 15px;
+  border: 1px solid gray;
+  border-radius: 25px;
+  padding-left: 30px;
+  padding-bottom: 50px;
+}
