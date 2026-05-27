@@ -13,6 +13,7 @@
   margin-left: 28%;
   padding: 30px;
   font-weight: bold;
+  cursor: pointer;
 }
 #Welcome {
   display: flex;
@@ -128,6 +129,9 @@ a {
 .contact {
   background-color: #f8f7ff;
 }
+.contact-container {
+  display: flex;
+}
 .contact-header {
   display: flex;
   flex-direction: column;
@@ -178,6 +182,14 @@ a {
   border-radius: 25px;
   padding-left: 30px;
 }
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 400px;
+  gap: 30px;
+  padding-top: 10px;
+}
 .email {
   background-color: white;
   border: 25px;
@@ -196,4 +208,45 @@ a {
   border-radius: 25px;
   padding-left: 30px;
   padding-bottom: 50px;
+}
+.send-button {
+  background-color: black;
+  color: white;
+  width: 120px;
+  padding: 16px;
+  border-radius: 15px;
+}
+.footer-text {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: larger;
+  font-family: "Quicksand", sans-serif;
+}
+.footer-icons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+
+  color: black;
+  font-size: 25px;
+}
+.footer-last-text {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  font-family: "Quicksand", sans-serif;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 20px;
 }
