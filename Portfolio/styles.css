@@ -10,7 +10,7 @@
   display: flex;
   gap: 30px;
   list-style: none;
-  margin-left: 22%;
+  margin-left: 28%;
   padding: 30px;
   font-weight: bold;
 }
@@ -124,4 +124,16 @@ a {
 }
 .marks {
   color: #9a8c98;
+}
+.contact {
+  background-color: #f8f7ff;
+}
+.contact-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Figtree", sans-serif;
+  padding: 50px;
+  gap: 10px;
 }
